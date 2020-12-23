@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: lato;
+}
+
+.container {
+  background-color: #361964;
+  color: #fff;
+  height: 100vh;
+  padding: 0 1rem;
+}
+
+.container header h2 {
+  text-align: center;
+  padding: 16px;
+}
+
+.container header .reset-btn {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1.2rem;
+  background: #fff;
+  border-radius: 0.2rem;
+  position: absolute;
+  right: 1rem;
+  top: 1rem;
+  font-size: 1rem;
+}
+
+.container .player-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.container .player-container .user-container,
+.container .player-container .bot-container {
+  position: relative;
+  border: 1px solid #fff;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .player-container .user-container .image-container img,
+.container .player-container .bot-container .image-container img {
+  height: 25vh;
+  width: 25vh;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.container .player-container .message-win,
+.container .player-container .message-lose {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
+.container .player-container .score-board {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  border: 1px solid #fff;
+  padding: 1rem;
+  background: #fff;
+  color: #000;
+}
+
+.container .player-container .score-board span {
+  font-size: 48px;
+}
+
+.container .start-btn {
+  padding: 1rem 4.5rem;
+  font-size: 2rem;
+  outline: none;
+  background-color: blueviolet;
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(-50%, 18px);
+          transform: translate(-50%, 18px);
+  color: #fff;
+  border-radius: 2rem;
+  border: none;
+}
+
+.container .action-btns {
+  padding: 1rem 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container .action-btns .btn {
+  border: 2px solid #6e00ff;
+  outline: none;
+  padding: 1rem;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  margin: 0 1rem;
+}
+
+.container .action-btns .btn p {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.winner {
+  background-color: #3f51b5;
+}
+/*# sourceMappingURL=style.css.map */

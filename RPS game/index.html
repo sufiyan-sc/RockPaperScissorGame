@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissor</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>Rock Paper Scissor</h2>
+            <button class="reset-btn"><p>Restart</p></button>
+        </header>
+<div class="player-container">
+        <div class="user-container">
+            <div class="image-container">
+           <img src="./Imgs/option-1.jpg" alt="option" class="image" >
+           <h1 class="message-win">You Won</>
+           <h1 class="message-lose">You Lose</>
+            </div>
+        </div>
+        <div class="bot-container">
+            <div class="image-container">
+                <img src="./Imgs/option-1.jpg" alt="option"  class="imageDuplicate" >
+            </div>
+        </div>
+        <div class="score-board">
+            <span class="user-score">2</span>&nbsp;<span>:</span>&nbsp;<span class="bot-score">0</span>
+        </div>
+</div>
+
+<button class="start-btn" id="play-btn"><p>Start</p></button>
+
+<div class="action-btns">
+<button class="btn" id="rock-btn"><p>Rock</p></button>
+<button class="btn" id="paper-btn"><p>Paper</p></button>
+<button class="btn" id="scissor-btn"><p>Scissor</p></button>
+</div>
+
+    </div>
+    <script src="./JS/script.js"></script>
+</body>
+</html>
