@@ -56,7 +56,7 @@ let botSelection=function(){
 }
 
 
-// Function to check who wins
+// Function to check who won the game
 
 let check=function(){
  
